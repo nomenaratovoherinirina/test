@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="public/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="public/style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Portfolio</a></h1>
+        <div class="nav">
+          <nav>
+            <ul>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="competence.html">Competences</a></li>
+              <li><a href="projet.html">Projets</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="toggle-div">
+          <div class="container-toggle">
+            <div class="circle-toggle"></div>
+          </div>
+        </div>
+    </header>
+
+    <section id="contact" class="mt-5 mb-5 container">
+        <h2>Contactez-moi</h2>
+        <div class="flex">
+          <div class="col-lg-6">
+            <form id="contact-form">
+              <label for="nom">Nom :</label>
+              <input type="text" id="nom" name="nom" required class="form-control">
+        
+              <label for="email">Email :</label>
+              <input type="email" id="email" name="email" required class="form-control">
+        
+              <label for="message">Message :</label>
+              <textarea id="message" name="message" required class="form-control"></textarea>
+        
+              <input type="submit" class="btn btn-secondary mt-2" value="Envoyer">
+            </form>
+          </div>
+          <div class="col-lg-6 ">
+              <div class="flex">
+                <div class="circle m-4">
+                  <i class="fa fa-facebook white p-3"></i>
+                </div>
+                <span class="mt-4">Nomena Le Mlam</span>
+              </div>
+              <div class="flex">
+                <div class="circle m-4">
+                  <i class="fa fa-envelope white p-3"></i>
+                </div>
+                <span class="mt-4">nomenaratovoherinirina@gmail.com</span>
+              </div>
+              <div class="flex">
+                <div class="circle m-4">
+                  <i class="fa fa-phone white p-3"></i>
+                </div>
+                <span class="mt-4">0342950486</span>
+              </div>
+          </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 <button class="btn btn-danger">Portfolio</button></p>
+    </footer>
+    
+    <script src="public/main.js"></script>
+</body>
+</html>

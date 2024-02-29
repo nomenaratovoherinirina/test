@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .white{
+    color: white;
+  }
+  
+  @keyframes anim {
+    0%{width: 0%;}
+    25%{width: 25%;}
+    50%{width: 50%;}
+    75%{width: 75%;}
+    100%{width: 100%;}
+  }
+  @keyframes animRound{
+    0%{width: 0px;}
+    50%{width: 25px;}
+    100%{width: 50px;}
+  }
+  @keyframes hita{
+    0%{width: 0px;}
+    100%{width: inherit;}
+  }
+
+  h4{
+    background-color: rgb(235, 38, 71);
+    color: white;
+    padding: 5px;
+    animation: anim 0.5s ease-in-out;
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  h1 a{
+    color: white;
+  }
+  .metier{
+    color: rgb(235, 38, 71);
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .pname{
+    text-align: center;
+  }
+  .nom{
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 100px;
+  }
+  nav ul li a :hover{
+    list-style: none;
+    color: white;
+    text-decoration-line: none;
+  }
+  
+  .nav{
+    float:right;
+    margin-top: -30px;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px; 
+  }
+  a:hover{
+    color: white;
+    text-decoration: none;
+  }
+  .projet {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .flex{
+    display:flex;
+  }
+  .presentation{
+    margin-left: auto;
+    padding-top: 80px;
+  }
+.circle{
+      border-radius: 50%;
+      width: 45px;
+      height: 45px;
+      background-color: rgb(235, 38, 71);
+  }
+  .round-1{
+    background-color: rgb(235, 38, 71);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation: animRound 0.5s ease-in;
+  }
+  .round-2{
+    margin-top: 25px;
+    background-color: rgb(235, 38, 71);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    animation: hita 1s ease-in-out;
+    
+  }
+  .round-3{
+    margin-top: 35px;
+    background-color: rgb(235, 38, 71);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    animation: hita 1.25s ease-in-out;
+    
+  }
+  .anim-index{
+    justify-content: center;
+  }
+  .html{
+    width: 90%;
+  }
+  .css{
+    width: 90%;
+  }
+  .bootstrap{
+    width: 75%;
+  }
+  .js{
+    width: 80%
+    ;
+  }
+  .react{
+    width: 60%;
+  }
+  .node{
+    width: 50%;
+  }
+  .cop-icon{
+    font-size: 15px;
+    padding: 15px;
+  }
+  @keyframes animlogo{
+    0%{width: 0px;}
+    /* 50%{width: 175px;} */
+    100%{width: 235px;}
+  }
+  .plogo{
+    animation: animlogo 0.5s ease-in-out;
+  }
+  .container-toggle{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(240, 232, 232);
+    border-radius: 15px;
+  }
+  .circle-toggle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #333;
+    cursor: pointer;
+  }
+  .toggle-div{
+    float: right;
+    width: 90px;
+    height: 50px;
+    margin-top: -30px;
+  }
